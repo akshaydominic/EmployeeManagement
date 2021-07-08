@@ -32,7 +32,7 @@ Create 2 rest api’s for applying filter & pagination.
     `contact_number` int(15) DEFAULT NULL, \
     `picture` mediumblob, \
     PRIMARY KEY (`id`) \
-  ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1; 
+  ) 
 
 ## URL 
 Employee Registration Page: http://localhost:9092/Employee/home \
