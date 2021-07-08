@@ -15,6 +15,8 @@ Create 2 rest api’s for applying filter & pagination.
   2. Pagination api will fetch the N number of records. Send the number of
      records (N) as input as a request parameter.
      
+## Server used 
+### Tomcat 9
 ### MySQL setup
 CREATE DATABASE  IF NOT EXISTS `employee_management`; \
 DROP TABLE IF EXISTS `employee`; \
@@ -29,4 +31,6 @@ CREATE TABLE `employee` ( \
   `contact_number` int(15) DEFAULT NULL, \
   `picture` mediumblob, \
   PRIMARY KEY (`id`) \
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1; \
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1; 
+
+
