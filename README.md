@@ -19,14 +19,14 @@ Create 2 rest api’s for applying filter & pagination.
 CREATE DATABASE  IF NOT EXISTS `employee_management`; \
 DROP TABLE IF EXISTS `employee`; \
 CREATE TABLE `employee` ( \
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `first_name` varchar(45) DEFAULT NULL,
-  `last_name` varchar(45) DEFAULT NULL,
-  `salary` int DEFAULT NULL,
-  `department` varchar(45) DEFAULT NULL,
-  `position` varchar(45) DEFAULT NULL,
-  `email_address` varchar(45) DEFAULT NULL,
-  `contact_number` int(15) DEFAULT NULL,
-  `picture` mediumblob,
+  `id` int(11) NOT NULL AUTO_INCREMENT, \
+  `first_name` varchar(45) DEFAULT NULL, \
+  `last_name` varchar(45) DEFAULT NULL, \
+  `salary` int DEFAULT NULL, \
+  `department` varchar(45) DEFAULT NULL, \
+   `position` varchar(45) DEFAULT NULL, \
+  `email_address` varchar(45) DEFAULT NULL, \
+  `contact_number` int(15) DEFAULT NULL, \
+  `picture` mediumblob, \
   PRIMARY KEY (`id`) \
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1; \
