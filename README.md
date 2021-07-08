@@ -34,4 +34,8 @@ Create 2 rest api’s for applying filter & pagination.
     PRIMARY KEY (`id`) \
   ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1; 
 
-
+## URL 
+Employee Registration Page: http://localhost:9092/Employee/home \
+Employye List : http://localhost:9092/Employee/list \
+Filter Api : http://localhost:9092/Employee/api/filter/Soldier \
+Pagination Api : http://localhost:9092/Employee/api/pagination/2
