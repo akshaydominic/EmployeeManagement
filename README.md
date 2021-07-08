@@ -36,7 +36,7 @@ Create 2 rest api’s for applying filter & pagination.
 
 ## URL 
 Employee Registration Page: http://localhost:9092/Employee/home \
-Employye List : http://localhost:9092/Employee/list \
+Employye List : http://localhost:9092/Employee/list 
 
 Post Mapping Postman API client was used \
 Filter Api : http://localhost:9092/Employee/api/filter/Soldier \
