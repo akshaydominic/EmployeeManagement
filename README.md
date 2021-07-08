@@ -15,10 +15,10 @@ Create 2 rest api’s for applying filter & pagination.
   2. Pagination api will fetch the N number of records. Send the number of
      records (N) as input as a request parameter.
      
-###MySQL setup
-CREATE DATABASE  IF NOT EXISTS `employee_management`;
-DROP TABLE IF EXISTS `employee`;
-CREATE TABLE `employee` (
+### MySQL setup
+CREATE DATABASE  IF NOT EXISTS `employee_management`; \
+DROP TABLE IF EXISTS `employee`; \
+CREATE TABLE `employee` ( \
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(45) DEFAULT NULL,
   `last_name` varchar(45) DEFAULT NULL,
@@ -28,5 +28,5 @@ CREATE TABLE `employee` (
   `email_address` varchar(45) DEFAULT NULL,
   `contact_number` int(15) DEFAULT NULL,
   `picture` mediumblob,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`) \
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
